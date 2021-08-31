@@ -39,6 +39,17 @@ $myroutes ['about']='Home::about';
 $myroutes ['contact']='Home::contact';
 
 $myroutes ['/design-solutions/creatives']='DesignSolutions::creatives';
+$myroutes ['/design-solutions/logo-designs']='DesignSolutions::LogoDesigns';
+$myroutes ['/design-solutions/webpage-design']='DesignSolutions::WebPageDesign';
+$myroutes ['/design-solutions/landing-page']='DesignSolutions::LandingPageDesign';
+$myroutes ['/design-solutions/brochure-design']='DesignSolutions::BrochureDesign';
+
+$myroutes ['/website-solutions/']='WebsiteSolutions::';
+
+
+$myroutes ['/digital-marketing-services/']='DigitalMarketingServices::';
+
+$myroutes ['/website-solutions/']='WebsiteSolutions::';
 
 $routes->map($myroutes);
 /*
