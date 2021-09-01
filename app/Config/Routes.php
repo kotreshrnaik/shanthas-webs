@@ -50,9 +50,14 @@ $myroutes ['/website-solutions/landing-page-development']='WebsiteSolutions::Lan
 $myroutes ['/website-solutions/e-commerce-website-development']='WebsiteSolutions::ECommerceWebsiteDevelopment';
 $myroutes ['/website-solutions/shopify']='WebsiteSolutions::Shopify';
 
-$myroutes ['/digital-marketing-services/']='DigitalMarketingServices::';
-
-
+$myroutes ['/digital-marketing-services/search-engine-optimization']='DigitalMarketingServices::SearchEngineOptimization';
+$myroutes ['/digital-marketing-services/search-engine-marketing']='DigitalMarketingServices::SearchEngineMarketing';
+$myroutes ['/digital-marketing-services/social-media-marketing']='DigitalMarketingServices::SocialMediaMarketing';
+$myroutes ['/digital-marketing-services/pay-per-click']='DigitalMarketingServices::PayPerClick';
+$myroutes ['/digital-marketing-services/content-marketing']='DigitalMarketingServices::ContentMarketing';
+$myroutes ['/digital-marketing-services/e-mail-marketing']='DigitalMarketingServices::EmailMarketing';
+$myroutes ['/digital-marketing-services/whatsapp-sms-marketing']='DigitalMarketingServices::WhatsappSMSMarketing';
+$myroutes ['/digital-marketing-services/app-promotions']='DigitalMarketingServices::AppPromotions';
 
 $routes->map($myroutes);
 /*
