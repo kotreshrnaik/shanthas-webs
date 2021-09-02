@@ -28,23 +28,23 @@
                 </div>
                 <div class="m-2">
                     <div class="row">
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social1 text-center">
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -66,23 +66,23 @@
                 </div>
                 <div class="m-2">
                     <div class="row">
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social1 text-center">
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -104,23 +104,23 @@
                 </div>
                 <div class="m-2">
                     <div class="row">
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social1 text-center">
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -142,23 +142,23 @@
                 </div>
                 <div class="m-2">
                     <div class="row">
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social1 text-center">
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -180,23 +180,23 @@
                 </div>
                 <div class="m-2">
                     <div class="row">
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social1 text-center">
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 p-2">
+                        <div class="col-md-3 col-3 p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
