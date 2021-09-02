@@ -6,16 +6,14 @@
             <div class="col-md-12">
                 <div class="text-center">
                     <h2 class= "pt-2 pb-2 text-white">About Us</h2>
-
-                    <div class="text-center">
+                    <div class="">
                         <nav aria-label="breadcrumb" >
-                            <ol class="breadcrumb me-auto ms-auto">
+                            <ol class="breadcrumb justify-content-center">
                                 <li class="breadcrumb-item"><a href="<?= base_url(); ?>">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">About Us</li>
                             </ol>
                         </nav>
                     </div>
-
                 </div>
             </div>
         </div>
