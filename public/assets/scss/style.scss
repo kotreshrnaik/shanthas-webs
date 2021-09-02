@@ -161,9 +161,69 @@ $tertiary-color: white;
     .blog-social1 {
         li {
             background-color: blue;
+            &:hover {
+                background-color:$secondary-color;
+            }
+            a {
+                color: $tertiary-color;
+                
+            }
+            
+        }
+        
+    }
+    .blog-social2 {
+        li {
+            background-color: rgb(20, 205, 238);
+            &:hover {
+                background-color:$secondary-color;
+            }
             a {
                 color: $tertiary-color;
             }
+        }
+    }
+    .blog-social3 {
+        li {
+            background-color: rgb(37, 107, 236);
+            &:hover {
+                background-color:$secondary-color;
+            }
+            a {
+                color: $tertiary-color;
+            }
+        }
+    }
+    .blog-social4 {
+        li {
+            background-color: rgb(18, 240, 221);
+            &:hover {
+                background-color:$secondary-color;
+            }
+            a {
+                color: $tertiary-color;
+            }
+        }
+    }
+
+    .side-line {
+        position: relative;
+        &::before {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 1px;
+            content: '';
+            background-color: #333333;
+
+        }
+        .line {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            padding: 6px 15px;
+            background-color: #fff;
         }
     }
 }

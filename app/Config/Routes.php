@@ -7,9 +7,8 @@ $routes = Services::routes();
 
 // Load the system's routing file first, so that the app and ENVIRONMENT
 // can override as needed.
-if (file_exists(SYSTEMPATH . 'Config/Routes.php'))
-{
-	require SYSTEMPATH . 'Config/Routes.php';
+if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
+    require SYSTEMPATH . 'Config/Routes.php';
 }
 
 /**
@@ -34,32 +33,32 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
-$myroutes=[];
-$myroutes ['about']='Home::about';
-$myroutes ['contact']='Home::contact';
+$myroutes = [];
+$myroutes ['about'] = 'Home::about';
+$myroutes ['contact'] = 'Home::contact';
 
-$myroutes ['/design-solutions/creatives']='DesignSolutions::creatives';
-$myroutes ['/design-solutions/logo-designs']='DesignSolutions::LogoDesigns';
-$myroutes ['/design-solutions/webpage-design']='DesignSolutions::WebPageDesign';
-$myroutes ['/design-solutions/landing-page-design']='DesignSolutions::LandingPageDesign';
-$myroutes ['/design-solutions/brochure-design']='DesignSolutions::BrochureDesign';
+$myroutes ['/design-solutions/creatives'] = 'DesignSolutions::creatives';
+$myroutes ['/design-solutions/logo-designs'] = 'DesignSolutions::LogoDesigns';
+$myroutes ['/design-solutions/webpage-design'] = 'DesignSolutions::WebPageDesign';
+$myroutes ['/design-solutions/landing-page-design'] = 'DesignSolutions::LandingPageDesign';
+$myroutes ['/design-solutions/brochure-design'] = 'DesignSolutions::BrochureDesign';
 
-$myroutes ['/website-solutions/website-design']='WebsiteSolutions::WebsiteDesign';
-$myroutes ['/website-solutions/website-developement']='WebsiteSolutions::WebsiteDevelopement';
-$myroutes ['/website-solutions/landing-page-development']='WebsiteSolutions::LandingPageDevelopment';
-$myroutes ['/website-solutions/e-commerce-website-development']='WebsiteSolutions::ECommerceWebsiteDevelopment';
-$myroutes ['/website-solutions/shopify']='WebsiteSolutions::Shopify';
+$myroutes ['/website-solutions/website-design'] = 'WebsiteSolutions::WebsiteDesign';
+$myroutes ['/website-solutions/website-developement'] = 'WebsiteSolutions::WebsiteDevelopement';
+$myroutes ['/website-solutions/landing-page-development'] = 'WebsiteSolutions::LandingPageDevelopment';
+$myroutes ['/website-solutions/e-commerce-website-development'] = 'WebsiteSolutions::ECommerceWebsiteDevelopment';
+$myroutes ['/website-solutions/shopify'] = 'WebsiteSolutions::Shopify';
 
-$myroutes ['/digital-marketing-services/search-engine-optimization']='DigitalMarketingServices::SearchEngineOptimization';
-$myroutes ['/digital-marketing-services/search-engine-marketing']='DigitalMarketingServices::SearchEngineMarketing';
-$myroutes ['/digital-marketing-services/social-media-marketing']='DigitalMarketingServices::SocialMediaMarketing';
-$myroutes ['/digital-marketing-services/pay-per-click']='DigitalMarketingServices::PayPerClick';
-$myroutes ['/digital-marketing-services/content-marketing']='DigitalMarketingServices::ContentMarketing';
-$myroutes ['/digital-marketing-services/e-mail-marketing']='DigitalMarketingServices::EmailMarketing';
-$myroutes ['/digital-marketing-services/whatsapp-sms-marketing']='DigitalMarketingServices::WhatsappSMSMarketing';
-$myroutes ['/digital-marketing-services/app-promotions']='DigitalMarketingServices::AppPromotions';
+$myroutes ['/digital-marketing-services/search-engine-optimization'] = 'DigitalMarketingServices::SearchEngineOptimization';
+$myroutes ['/digital-marketing-services/search-engine-marketing'] = 'DigitalMarketingServices::SearchEngineMarketing';
+$myroutes ['/digital-marketing-services/social-media-marketing'] = 'DigitalMarketingServices::SocialMediaMarketing';
+$myroutes ['/digital-marketing-services/pay-per-click'] = 'DigitalMarketingServices::PayPerClick';
+$myroutes ['/digital-marketing-services/content-marketing'] = 'DigitalMarketingServices::ContentMarketing';
+$myroutes ['/digital-marketing-services/e-mail-marketing'] = 'DigitalMarketingServices::EmailMarketing';
+$myroutes ['/digital-marketing-services/whatsapp-sms-marketing'] = 'DigitalMarketingServices::WhatsappSMSMarketing';
+$myroutes ['/digital-marketing-services/app-promotions'] = 'DigitalMarketingServices::AppPromotions';
 
-$myroutes ['blog']='Blog::index';
+$myroutes ['blog'] = 'Blog::index';
 
 $routes->map($myroutes);
 /*
@@ -75,7 +74,6 @@ $routes->map($myroutes);
  * You will have access to the $routes object within that file without
  * needing to reload it.
  */
-if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php'))
-{
-	require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
+if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
+    require APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php';
 }

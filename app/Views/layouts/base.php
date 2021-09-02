@@ -42,7 +42,7 @@
         </div>
         <!-- Top Header End -->
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-white" id="navbar" >
+        <nav class="navbar navbar-expand-lg navbar-light" id="navbar" >
             <div class="container">
                 <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url() ?>/public/assets/images/logo.png" alt="" class="img-fluid"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
