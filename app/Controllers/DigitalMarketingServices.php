@@ -17,35 +17,35 @@ use CodeIgniter\Controller;
 class DigitalMarketingServices extends Controller {
     public function SearchEngineOptimization()
     {
-        return view('seo_view');
+        return view('digital-marketing-services/seo_view');
     }
     public function SearchEngineMarketing()
     {
-        return view('sem_view');
+        return view('digital-marketing-services/sem_view');
     }
     public function SocialMediaMarketing()
     {
-        return view('smm_view');
+        return view('digital-marketing-services/smm_view');
     }
     public function PayPerClick()
     {
-        return view('ppc_view');
+        return view('digital-marketing-services/ppc_view');
     }
     public function ContentMarketing()
     {
-        return view('content_view');
+        return view('digital-marketing-services/content_view');
     }
     public function EmailMarketing()
     {
-        return view('email_view');
+        return view('digital-marketing-services/email_view');
     }
     public function WhatsappSMSMarketing()
     {
-        return view('whatsapp_view');
+        return view('digital-marketing-services/whatsapp_view');
     }
     public function AppPromotions()
     {
-        return view('app_view');
+        return view('digital-marketing-services/app_view');
     }
     
     

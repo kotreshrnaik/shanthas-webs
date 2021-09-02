@@ -59,6 +59,8 @@ $myroutes ['/digital-marketing-services/e-mail-marketing']='DigitalMarketingServ
 $myroutes ['/digital-marketing-services/whatsapp-sms-marketing']='DigitalMarketingServices::WhatsappSMSMarketing';
 $myroutes ['/digital-marketing-services/app-promotions']='DigitalMarketingServices::AppPromotions';
 
+$myroutes ['blog']='Blog::index';
+
 $routes->map($myroutes);
 /*
  * --------------------------------------------------------------------

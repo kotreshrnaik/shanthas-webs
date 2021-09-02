@@ -20,23 +20,23 @@ class DesignSolutions extends Controller{
     }
     public function creatives()
     {
-        return view('creatives_view');
+        return view('design_solutions/creatives_view');
     }
     public function LogoDesigns()
     {
-        return view('logodesigns_view');
+        return view('design_solutions/logodesigns_view');
     }
     public function WebPageDesign()
     {
-        return view('webpagedesign_view');
+        return view('design_solutions/webpagedesign_view');
     }
     public function LandingPageDesign()
     {
-        return view('landingpage_view');
+        return view('design_solutions/landingpage_view');
     }
     public function BrochureDesign()
     {
-        return view('brochure_view');
+        return view('design_solutions/brochure_view');
     }
     
     

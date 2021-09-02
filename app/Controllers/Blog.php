@@ -16,8 +16,11 @@ use CodeIgniter\Controller;
  * @author Admin
  */
 class Blog extends Controller {
+    public function __construct() {
+        helper("date");
+    }
     public function index()
     {
-        
+        return view("blog/blog_view");
     }
 }

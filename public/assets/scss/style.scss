@@ -1,0 +1,169 @@
+$primary-color:#000;
+$secondary-color: red;
+$tertiary-color: white;
+
+
+#top-header {
+    background-color: $primary-color;
+    a {
+        text-decoration: none;
+        color: $tertiary-color;
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+#navbar {
+    .nav-item{
+        background-color: $secondary-color;
+        &:hover {
+            background-color: $primary-color;
+        }
+
+    }
+    .nav-link{
+        color: $tertiary-color;
+        padding: 10px 15px;
+    }
+    .dropdown-menu {
+        background-color: $secondary-color;
+    }
+    .dropdown-item {
+        color: $tertiary-color;
+        &:hover {
+            background-color: $primary-color;
+        }
+    }
+    
+}
+#our-services {
+    .card {
+        &:hover {
+
+            .card-img-top {
+                transform: scale(1);
+                transition: all 0.5s ease;
+               
+            }
+            box-shadow: 1px 2px 2px $secondary-color;
+        }
+    }
+    .card-img-top {
+        transform: scale(.9);
+        transition: all 0.3s ease;
+        // &:hover {
+        //     transform: scale(1.0);
+        // }
+    }
+}
+
+#design-solutions{
+    .card {
+        transform: scale(.9);
+        transition: all .3s ease;
+        &:hover {
+            transform: scale(1);
+            box-shadow: 1px 2px 2px $secondary-color;
+        }
+        
+    }
+    .fa-sketch {
+        color:$secondary-color;
+    }
+}
+
+#website-solutions{
+    .card {
+        transform: scale(.9);
+        transition: all .3s ease;
+        &:hover {
+            transform: scale(1);
+            box-shadow: 1px 2px 2px $secondary-color;
+        }
+        
+    }
+    .fa-sketch {
+        color:$secondary-color;
+    }
+}
+
+#digital-marketing-service{
+    .card {
+        transform: scale(.9);
+        transition: all .3s ease;
+        &:hover {
+            transform: scale(1);
+            box-shadow: 1px 2px 2px $secondary-color;
+        }
+        
+    }
+    .fa-sketch {
+        color:$secondary-color;
+    }
+}
+
+#footer {
+    background-color: $primary-color;
+    h2 {
+        color: $secondary-color;
+    }
+    address {
+        color: $tertiary-color;
+    }
+    a {
+        text-decoration: none;
+        color: $tertiary-color;
+        &:hover {
+            color: $secondary-color;
+        }
+             
+    }
+    
+}
+
+#about-header {
+    background-color: $secondary-color;
+    a {
+        color: $tertiary-color;
+        text-decoration: none;
+       
+    }
+}
+#about-team {
+    h5 {
+        color: $secondary-color;
+    }
+    p {
+        color:$primary-color;
+     }
+}
+
+#about-vision {
+    h2 {
+        color: $secondary-color;
+    }
+    p {
+        color:$primary-color;
+     }
+}
+#blog-content {
+    h2 {
+        color: $secondary-color;
+    }
+    p {
+        color: $primary-color;
+    }
+    a {
+        text-decoration: none;
+        color: $secondary-color;
+    }
+    .blog-social1 {
+        li {
+            background-color: blue;
+            a {
+                color: $tertiary-color;
+            }
+        }
+    }
+}

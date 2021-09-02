@@ -17,22 +17,22 @@ use CodeIgniter\Controller;
 class WebsiteSolutions extends Controller {
     public function WebsiteDesign()
     {
-        return view('websitedesign_view');
+        return view('website-solutions/websitedesign_view');
     }
     public function WebsiteDevelopement()
     {
-        return view('websitedeve_view');
+        return view('website-solutions/websitedeve_view');
     }
     public function LandingPageDevelopment()
     {
-        return view('landingpagedeve_view');
+        return view('website-solutions/landingpagedeve_view');
     }
     public function ECommerceWebsiteDevelopment()
     {
-        return view('ecommercedeve_view');
+        return view('website-solutions/ecommercedeve_view');
     }
     public function Shopify()
     {
-        return view('shopify_view');
+        return view('website-solutions/shopify_view');
     }
 }
