@@ -16,7 +16,9 @@
                 <div class="m-2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h2 class="pt-2 pb-2">Introduction to Shanthas Webz</h2>
@@ -33,18 +35,18 @@
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3  col-3  p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -54,7 +56,9 @@
                 <div class="m-2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h2 class="pt-2 pb-2">Introduction to Shanthas Webz</h2>
@@ -71,18 +75,18 @@
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3  col-3  p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -92,7 +96,9 @@
                 <div class="m-2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h2 class="pt-2 pb-2">Introduction to Shanthas Webz</h2>
@@ -109,18 +115,18 @@
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3  col-3  p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -130,7 +136,9 @@
                 <div class="m-2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h2 class="pt-2 pb-2">Introduction to Shanthas Webz</h2>
@@ -147,18 +155,18 @@
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3  col-3  p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -168,7 +176,9 @@
                 <div class="m-2">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            <div class="text-center">
+                                <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
+                            </div>
                         </div>
                         <div class="col-md-8">
                             <h2 class="pt-2 pb-2">Introduction to Shanthas Webz</h2>
@@ -185,18 +195,18 @@
                                 <li><a href="#" ><i class="fab fa-facebook m-2 fs-3"></i></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3  col-3  p-2">
                             <ul class="list-unstyled blog-social2 text-center">
                                 <li><a href="#" ><i class="fab fa-twitter  m-2 fs-3"></i></a></li>
                             </ul>    
 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social3 text-center">
                                 <li><a href="#" ><i class="fab fa-youtube  m-2 fs-3"></i></a></li>
                             </ul> 
                         </div>
-                        <div class="col-md-3 col-3 p-2">
+                        <div class="col-md-3 col-3  p-2">
                             <ul class="list-unstyled blog-social4 text-center">
                                 <li><a href="#" ><i class="fab fa-instagram m-2 fs-3"></i></a></li>
                             </ul> 
@@ -216,12 +226,12 @@
                 <div class="pt-5 pb-5">
                     <div class="m-2">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-4">
                                 <div class="text-center">
                                     <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-8">
                                 <h5 class="">Introduction</h5>
                                 <p>4K Total Views</p>
                             </div>
@@ -229,12 +239,12 @@
                     </div>
                     <div class="m-2">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-4">
                                 <div class="text-center">
                                     <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-8">
                                 <h5 class="">Introduction</h5>
                                 <p>4K Total Views</p>
                             </div>
@@ -242,12 +252,12 @@
                     </div>
                     <div class="m-2">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-4">
                                 <div class="text-center">
                                     <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-8">
                                 <h5 class="">Introduction</h5>
                                 <p>4K Total Views</p>
                             </div>
@@ -255,12 +265,12 @@
                     </div>
                     <div class="m-2">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-4">
                                 <div class="text-center">
                                     <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-8">
                                 <h5 class="">Introduction</h5>
                                 <p>4K Total Views</p>
                             </div>
@@ -268,12 +278,12 @@
                     </div>
                     <div class="m-2">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-4">
                                 <div class="text-center">
                                     <img src="<?= base_url(); ?>/public/assets/images/blog/blog1.png" alt="" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-8">
                                 <h5 class="">Introduction</h5>
                                 <p>4K Total Views</p>
                             </div>

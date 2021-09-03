@@ -42,88 +42,90 @@
         </div>
         <!-- Top Header End -->
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg navbar-light" id="navbar" >
-            <div class="container">
-                <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url() ?>/public/assets/images/logo.png" alt="" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url();?>/about">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Design Solutions
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+        <div class="sticky-top">
+          <nav class="navbar navbar-expand-lg navbar-light" id="navbar" >
+              <div class="container">
+                  <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url() ?>/public/assets/images/logo.png" alt="" class="img-fluid"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="<?= base_url();?>/about">About</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Design Solutions
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/creatives">Creatives</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/logo-designs">Logo Designs</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/webpage-design">Webpage Designs</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/landing-page-design">Landing Page Design</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/brochure-design">Brochure Design</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Website Solutions
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/creatives">Creatives</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/logo-designs">Logo Designs</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/webpage-design">Webpage Designs</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/landing-page-design">Landing Page Design</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/design-solutions/brochure-design">Brochure Design</a></li>
+                              </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Website Solutions
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/website-design">Website Design</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/website-developement">Website Development</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/landing-page-development">Landing Page Development</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/e-commerce-website-development">E-Commerce Website Development</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/shopify">Shopify</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Digital Marketing Services
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/website-design">Website Design</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/website-developement">Website Development</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/landing-page-development">Landing Page Development</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/e-commerce-website-development">E-Commerce Website Development</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/website-solutions/shopify">Shopify</a></li>
+                              </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Digital Marketing Services
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/search-engine-marketing">Search Engine Marketing</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/social-media-marketing">Social Media Marketing</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/pay-per-click">Pay Per Click</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/content-marketing">Content Marketing</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/e-mail-marketing">E-mail Marketing</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/whatsapp-sms-marketing">Whatsapp/SMS Marketing</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/app-promotions">App Promotions</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= base_url();?>/blog">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>  
-                    </ul>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/search-engine-optimization">Search Engine Optimization</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/search-engine-marketing">Search Engine Marketing</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/social-media-marketing">Social Media Marketing</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/pay-per-click">Pay Per Click</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/content-marketing">Content Marketing</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/e-mail-marketing">E-mail Marketing</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/whatsapp-sms-marketing">Whatsapp/SMS Marketing</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="<?= base_url();?>/digital-marketing-services/app-promotions">App Promotions</a></li>
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="<?= base_url();?>/blog">Blog</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                          </li>  
+                      </ul>
 
-                </div>
-            </div>
-        </nav>
+                  </div>
+              </div>
+          </nav>
+        </div>
         <!-- Navbar End -->
 
         <?= $this->renderSection("content"); ?>
@@ -132,14 +134,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="text-center"><img src="<?= base_url(); ?>/public/assets/images/logo.png" alt="" class="img-fluid"></div>
+                        <div class="text-center"><img src="<?= base_url(); ?>/public/assets/images/footer-logo.png" alt="" class="img-fluid"></div>
                         <address class="text-center"><strong>Shanthas Webz</strong> <br> 
                             #485, 10th Cross, 8th Main, 
                             HAL 3rd Stage, Jeevan Bhima Nagar,
                             Bengaluru-560075, Karnataka. <br>
                             P: 095136-36036</address>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="">
                             <h2 class="pt-2 pb-2">Quick Links</h2>
                             <ul>
@@ -150,7 +152,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <h2 class="pt-2 pt-2">Our Servies</h2>
                         <ul>
                             <li><a href="">Design Solutions</a></li>
@@ -159,7 +161,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <h2 class="pt-2 pb-2">Social Media</h2>
+                        <h2 class="pt-2 pb-2 text-center text-md-start">Social Media</h2>
                         <div class="align-self-center col-md-4">
                             <div class="text-center p-2 fs-5">
                                 <a href="#"><i class="fab fa-facebook"></i></a>

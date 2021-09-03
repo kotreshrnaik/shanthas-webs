@@ -1,5 +1,5 @@
 $primary-color:#000;
-$secondary-color: red;
+$secondary-color: #c92430;
 $tertiary-color: white;
 
 
@@ -15,6 +15,7 @@ $tertiary-color: white;
 }
 
 #navbar {
+    background-color: $tertiary-color;
     .nav-item{
         background-color: $secondary-color;
         &:hover {
@@ -105,6 +106,9 @@ $tertiary-color: white;
 
 #footer {
     background-color: $primary-color;
+    ul {
+        color: $tertiary-color;
+    }                                                                                             
     h2 {
         color: $secondary-color;
     }
